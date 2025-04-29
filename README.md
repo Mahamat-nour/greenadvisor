@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌿 GreenAdvisor – Analyse & réduction d'empreinte carbone d'entreprise
 
 **GreenAdvisor** est une application interactive de calcul des émissions de CO₂ internes d'une entreprise (électricité, transport, activité numérique), avec recommandations personnalisées et export de rapport.
@@ -57,16 +58,3 @@ Il contient 3 feuilles :
 - `activity_log`
 
 ---
-
-## 🚀 Lancer le projet localement
-
-```bash
-# 1. Cloner le repo
-git clone https://github.com/votre-profil/greenadvisor.git
-cd greenadvisor
-
-# 2. Lancer l'API FastAPI
-uvicorn app.main:app --reload
-
-# 3. Lancer l’interface Streamlit
-streamlit run app_ui/streamlit_app.py
