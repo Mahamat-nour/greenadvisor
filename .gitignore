@@ -1,0 +1,11 @@
+# Ignorer l'environnement virtuel
+venv/
+.env
+__pycache__/
+*.pyc
+.DS_Store
+
+# Fichiers sensibles ou inutiles
+*.pkl
+*.sqlite
+*.log
