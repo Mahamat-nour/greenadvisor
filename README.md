@@ -19,7 +19,7 @@
 
 ## 📸 Capture d’écran
 
-![Aperçu de l’application](./capsupp.png)
+![Aperçu de l’application](./capdemo.png)
 
 ---
 
