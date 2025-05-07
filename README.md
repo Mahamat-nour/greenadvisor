@@ -1,63 +1,43 @@
-<<<<<<< HEAD
-# 🌿 GreenAdvisor – Analyse & réduction d'empreinte carbone d'entreprise
+# 🌱 GreenAdvisor – Optimisez votre impact carbone avec l'IA
 
-**GreenAdvisor** est une application interactive de calcul des émissions de CO₂ internes d'une entreprise (électricité, transport, activité numérique), avec recommandations personnalisées et export de rapport.
-
----
-
-## 💼 À propos
-
-Projet de portfolio développé par [Mahamat Maina Mahamat Nour](https://www.linkedin.com/in/mahamat-maina-mahamat-nour/)  
-🔗 GitHub : [Mahamat-nour](https://github.com/Mahamat-nour)  
-📬 Contact : mnourmaina@gmail.com
-
-
-## 🚀 Démo rapide
-
-📊 Interface utilisateur :  
-![Demo GreenAdvisor](./assets/capdemo.png)
-
+[![Streamlit App](https://img.shields.io/badge/🟢%20Demo%20en%20ligne-Streamlit-green?logo=streamlit)](https://greenadvisor-wwgmwbuhyvzsbeupp5tkcq.streamlit.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Mahamat--nour-181717?logo=github)](https://github.com/Mahamat-nour)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Mahamat%20Maina%20M.N.-0A66C2?logo=linkedin)](https://www.linkedin.com/in/mahamat-maina-mahamat-nour/)
 
 ---
 
-## 🧠 Objectifs du projet
+## 📌 Présentation
 
-- Estimer l’empreinte carbone d’une entreprise à partir de ses données internes
-- Générer des recommandations personnalisées d’optimisation
-- Offrir une interface visuelle simple pour comprendre les résultats
-- Exporter un rapport PDF automatique à destination des parties prenantes
+**GreenAdvisor** est une application intelligente permettant aux entreprises et particuliers de :
 
----
-
-## 🛠️ Stack technique
-
-- **Backend API** : FastAPI
-- **Frontend** : Streamlit + Plotly
-- **ML / Data** : Pandas, Numpy
-- **Déploiement** : Docker
-- **PDF** : FPDF
+- 🧮 Analyser leurs émissions de CO₂ (électricité, transport, activité numérique)
+- 🤖 Générer automatiquement des recommandations basées sur des modèles IA
+- 📊 Visualiser les émissions via des graphiques interactifs
+- 📄 Exporter un **rapport PDF personnalisé**
 
 ---
 
-## 📂 Fonctionnalités
+## 📸 Capture d’écran
 
-✅ Analyse des émissions internes (élec / transport / numérique)  
-✅ Chargement de fichiers Excel personnalisés  
-✅ Graphiques dynamiques  
-✅ Recommandations ciblées  
-✅ Export PDF du rapport  
+![Aperçu de l’application](./capsupp.png)
 
 ---
 
-## 🧪 Exemple de données (Excel)
+## 🚀 Fonctionnalités principales
 
-Un fichier d’exemple est fourni dans `data/internal_data.xlsx`  
-Il contient 3 feuilles :
-- `electricity`
-- `transport`
-- `activity_log`
+- Upload de fichiers Excel avec 3 feuilles : `electricity`, `transport`, `activity_log`
+- Calcul automatique des émissions carbone (kg CO₂)
+- Recommandations personnalisées via IA
+- Graphique dynamique avec Plotly
+- Export PDF prêt à partager
 
 ---
-=======
-# greenadvisor
-Application d’analyse carbone et recommandations personnalisées
+
+## 🧠 IA & Data Science
+
+- Modélisation personnalisée des émissions
+- Recommandations automatisées
+- Structuration modulaire (FastAPI backend, utils, PDF, etc.)
+- Visualisation interactive avec Plotly Express
+
+---
