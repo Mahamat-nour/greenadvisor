@@ -4,8 +4,8 @@
 #sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from fastapi import FastAPI
-from app.data_loader import load_internal_data
-from app.recommender import estimate_co2_emissions, generate_recommendations
+from data_loader import load_internal_data
+from recommender import estimate_co2_emissions, generate_recommendations
 
 app = FastAPI(title="GreenAdvisor API", version="0.1")
 
