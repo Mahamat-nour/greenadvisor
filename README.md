@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🌿 GreenAdvisor – Analyse & réduction d'empreinte carbone d'entreprise
 
 **GreenAdvisor** est une application interactive de calcul des émissions de CO₂ internes d'une entreprise (électricité, transport, activité numérique), avec recommandations personnalisées et export de rapport.
